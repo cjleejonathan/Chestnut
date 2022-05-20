@@ -14,7 +14,7 @@
   
   /* The sidebar links */
   .sidebar a {
-    padding: 8px 8px 8px 32px;
+    padding: 8px 32px 8px 8px;
     text-decoration: none;
     font-size: 25px;
     color: #818181;
@@ -31,9 +31,9 @@
   .sidebar .closebtn {
     position: absolute;
     top: 0;
-    right: 25px;
+    left: 25px;
     font-size: 36px;
-    margin-left: 50px;
+    margin-right: 50px;
   }
   
   /* The button used to open the sidebar */
@@ -55,7 +55,7 @@
   
   /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
   #main {
-    transition: margin-left .5s; /* If you want a transition effect */
+    transition: margin-right .5s; /* If you want a transition effect */
     padding: 20px;
   }
   
@@ -63,4 +63,19 @@
   @media screen and (max-height: 450px) {
     .sidebar {padding-top: 15px;}
     .sidebar a {font-size: 18px;}
+  }
+
+  /* mobile version */
+  @media screen and (max-width: 500px) {
+    .main {
+        width: 100%;
+    }
+  }
+
+  .container {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 3px solid black;
   }
