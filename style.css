@@ -30,8 +30,8 @@
   /* Position and style the close button (top right corner) */
   .sidebar .closebtn {
     position: absolute;
-    top: 0;
-    left: 25px;
+    top: 2px;
+    left: 1px;
     font-size: 36px;
     margin-right: 50px;
   }
