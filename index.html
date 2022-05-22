@@ -10,44 +10,69 @@
 </head>
 
 <body>
-    <!--sidebar-->
-    <div id="mySidebar" class="sidebar">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="#">About</a>
-        <a href="#">Menu</a>
-        <a href="#">Food Gallery</a>
-        <a href="#">Contect Us</a>
-      </div>
-      
-      <div id="main">
-        <button class="openbtn" onclick="openNav()">&#9776; Open Sidebar</button>
-      </div>
+    <!-- sticky header-->
+    <div class="top-container">
+        <img src="1200X700.png" alt="" style="width: 100vw;height: 90vh;">
+    </div>
+
+    <div class="header" id="myHeader">
+        <h2>Chesnut Cafe</h2>
+
+        <!--sidebar-->
+
+        <div id="main">
+            <button class="openbtn" onclick="openNav()">&#9776; Open Sidebar</button>
+        </div>
+
+        <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">About</a>
+            <a href="#">Menu</a>
+            <a href="#">Food Gallery</a>
+            <a href="#">Contect Us</a>
+        </div>
+
+
+
     </div>
     <script>
         function openNav() {
-          document.getElementById("mySidebar").style.width = "216px";
-          document.getElementById("main").style.marginRight = "216px";
+            document.getElementById("mySidebar").style.width = "216px";
+            document.getElementById("main").style.marginRight = "216px";
         }
-        
+
         function closeNav() {
-          document.getElementById("mySidebar").style.width = "0";
-          document.getElementById("main").style.marginLeft= "0";
+            document.getElementById("mySidebar").style.width = "0";
+            document.getElementById("main").style.marginLeft = "0";
+        }
+    </script>
+    </div>
+    <script>
+        window.onscroll = function () { myFunction() };
+
+        var header = document.getElementById("myHeader");
+        var sticky = header.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+            } else {
+                header.classList.remove("sticky");
+            }
         }
     </script>
 
+
+
+
+
+    <!--homepage-->
+    <div class="homepage">
+        <img src="1200X700.png" alt="" style="width: 100vw;height: 100vh;">
+    </div>
+
     <!--main content-->
     <div class="main" style="margin: 0 auto;width: 80%; border: 3px solid black;">
-        <h1>Chestnut Cafe</h1>
-
-        <!--homepage-->
-        <div class="homepage">
-            <div class="container">
-                <img src="1200X700.png" alt="" style="width: 640px;height: 320px;padding: 5px;">
-                <img src="1200X700.png" alt="" style="width: 640px;height: 320px;padding: 5px;">
-                <img src="1200X700.png" alt="" style="width: 1280px;height: 640px;padding: 5px;">
-            </div>
-        </div>
-
 
         <!--about us-->
         <div class="aboutus">
@@ -74,18 +99,61 @@
 
 
         <!--food gallery-->
-        <div class="aboutus">
+        <div class="foodgallery">
             <center>
                 <h1>food gallery</h1>
             </center>
-            <div class="container">
-                <img src="1200X700.png" alt="" style="width: 640px;height: 320px;padding: 5px;">
-                <img src="1200X700.png" alt="" style="width: 640px;height: 320px;padding: 5px;">
-                <img src="1200X700.png" alt="" style="width: 640px;height: 320px;padding: 5px;">
-                <img src="1200X700.png" alt="" style="width: 640px;height: 320px;padding: 5px;">
-                <img src="1200X700.png" alt="" style="width: 640px;height: 320px;padding: 5px;">
-                <img src="1200X700.png" alt="" style="width: 640px;height: 320px;padding: 5px;">
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                   
+                    <img src="1200X700.png" style="width:100%">
+                    <div class="text">Caption Text</div>
+                </div>
+
+                <div class="mySlides fade">
+                   
+                    <img src="1200X700.png" style="width:100%">
+                    <div class="text">Caption Two</div>
+                </div>
+
+                <div class="mySlides fade">
+                   
+                    <img src="1200X700.png" style="width:100%">
+                    <div class="text">Caption Three</div>
+                </div>
+
             </div>
+            <br>
+
+            <div style="text-align:center">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+
+            <script>
+                let slideIndex = 0;
+                showSlides();
+
+                function showSlides() {
+                    let i;
+                    let slides = document.getElementsByClassName("mySlides");
+                    let dots = document.getElementsByClassName("dot");
+                    for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";
+                    }
+                    slideIndex++;
+                    if (slideIndex > slides.length) { slideIndex = 1 }
+                    for (i = 0; i < dots.length; i++) {
+                        dots[i].className = dots[i].className.replace(" active", "");
+                    }
+                    slides[slideIndex - 1].style.display = "block";
+                    dots[slideIndex - 1].className += " active";
+                    setTimeout(showSlides, 4000); // Change image every 4 seconds
+                }
+            </script>
+
         </div>
 
 
@@ -96,10 +164,10 @@
                 <h1>contact us</h1>
             </center>
             <div class="container">
-               
+
                 <img src="1200X700.png" alt="" style="width: 640px;height: 320px;padding: 5px;">
                 <img src="1200X700.png" alt="" style="width: 640px;height: 320px;padding: 5px;">
-                
+
             </div>
 
         </div>
@@ -113,7 +181,7 @@
         padding-top: 100px;
         color: rgb(12, 12, 12);
         text-align: center;">
-            <h1>footer</h1>
+        <h1>footer</h1>
     </div>
 </body>
 
