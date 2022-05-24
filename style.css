@@ -101,6 +101,7 @@
 /* The sticky class is added to the header with JS when it reaches its scroll position */
 .sticky {
   position: fixed;
+  z-index: 9999;
   top: 0;
   width: 100%
 }
