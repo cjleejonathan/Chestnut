@@ -23,6 +23,7 @@
 /* The sidebar links */
 .sidebar a {
   padding: 8px 32px 8px 8px;
+  font-family:"architects-daughter", "bradley-hand", "marker felt", "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", "Helvetica", "Arial", "sans-serif";
   text-decoration: none;
   font-size: 25px;
   color: #C4B07C;
