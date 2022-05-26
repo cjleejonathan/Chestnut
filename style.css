@@ -23,7 +23,7 @@
 /* The sidebar links */
 .sidebar a {
   padding: 8px 32px 8px 8px;
-  font-family: segoe print, mv boli, gabriola, "architects-daughter", "bradley-hand", "marker felt", malgun gothic, "Gill Sans", "Gill Sans MT", "sans-serif";
+  font-family: "architects-daughter", "bradley-hand", "marker felt", "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", "Helvetica", "Arial", "sans-serif";
   text-decoration: none;
   font-size: 25px;
   color: #C4B07C;
@@ -55,7 +55,7 @@
   color: #5f3916;
   padding: 10px 15px;
   border: none;
-  font-family: segoe print, mv boli, gabriola, "architects-daughter", "bradley-hand", "marker felt", malgun gothic, "Gill Sans", "Gill Sans MT", "sans-serif";
+  font-family: "architects-daughter", "bradley-hand", "marker felt", "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", "Helvetica", "Arial", "sans-serif";
 }
 
 .openbtn:hover {
@@ -170,9 +170,12 @@ img {
   border: 3px solid black;
 }
 
-.font {
+.header_font {
   font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 }
+
+.font {
+  font-family: segoe print, mv boli, gabriola, "architects-daughter", "bradley-hand", "marker felt", malgun gothic, "Gill Sans", "Gill Sans MT", "sans-serif";
 
 .flex-container {
   display: flex;
