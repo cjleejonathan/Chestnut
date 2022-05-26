@@ -160,6 +160,7 @@ img {
   }
 }
 
+/* for each main section */
 .container {
   display: flex;
   width: 100%;
@@ -167,27 +168,33 @@ img {
   justify-content: center;
 }
 
+/* header font */
 .header_font {
   font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
   font-weight: bold;
 }
 
+/* other font */
 .font {
   font-family: segoe print, mv boli, gabriola, "architects-daughter", "bradley-hand", "marker felt", malgun gothic, "Gill Sans", "Gill Sans MT", "sans-serif";
 }
 
+/* for map */
 .flex-container {
   display: flex;
 }
 
+/* for map */
 .flex-child {
   flex: 1;
 }
 
+/* for map */
 .flex-child:first-child {
   margin-right: 20px;
 }
 
+/* for map */
 .map-responsive {
   overflow: hidden;
   padding-bottom: 56.25%;
@@ -195,6 +202,7 @@ img {
   height: 0;
 }
 
+/* for map */
 .map-responsive iframe {
   left: 0;
   top: 0;
