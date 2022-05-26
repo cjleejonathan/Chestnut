@@ -23,7 +23,7 @@
 /* The sidebar links */
 .sidebar a {
   padding: 8px 32px 8px 8px;
-  font-family: "architects-daughter", "bradley-hand", "marker felt", "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", "Helvetica", "Arial", "sans-serif";
+  font-family: segoe print, mv boli, gabriola, "architects-daughter", "bradley-hand", "marker felt", malgun gothic, "Gill Sans", "Gill Sans MT", "sans-serif";
   text-decoration: none;
   font-size: 25px;
   color: #C4B07C;
@@ -55,7 +55,7 @@
   color: #5f3916;
   padding: 10px 15px;
   border: none;
-  font-family: "architects-daughter", "bradley-hand", "marker felt", "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", "Helvetica", "Arial", "sans-serif";
+  font-family: segoe print, mv boli, gabriola, "architects-daughter", "bradley-hand", "marker felt", malgun gothic, "Gill Sans", "Gill Sans MT", "sans-serif";
 }
 
 .openbtn:hover {
@@ -188,27 +188,16 @@ img {
 }
 
 .map-responsive {
-
   overflow: hidden;
-
   padding-bottom: 56.25%;
-
   position: relative;
-
   height: 0;
-
 }
 
 .map-responsive iframe {
-
   left: 0;
-
   top: 0;
-
   height: 100%;
-
   width: 100%;
-
   position: absolute;
-
 }
