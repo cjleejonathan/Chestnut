@@ -23,7 +23,7 @@
 /* The sidebar links */
 .sidebar a {
   padding: 8px 32px 8px 8px;
-  font-family:"architects-daughter", "bradley-hand", "marker felt", "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", "Helvetica", "Arial", "sans-serif";
+  font-family: "architects-daughter", "bradley-hand", "marker felt", "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", "Helvetica", "Arial", "sans-serif";
   text-decoration: none;
   font-size: 25px;
   color: #C4B07C;
@@ -55,7 +55,7 @@
   color: #5f3916;
   padding: 10px 15px;
   border: none;
-  font-family:"architects-daughter", "bradley-hand", "marker felt", "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", "Helvetica", "Arial", "sans-serif";
+  font-family: "architects-daughter", "bradley-hand", "marker felt", "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", "Helvetica", "Arial", "sans-serif";
 }
 
 .openbtn:hover {
@@ -99,8 +99,13 @@
   color: #f1f1f1;
 }
 
-.mySlides {display: none;}
-img {vertical-align: middle;}
+.mySlides {
+  display: none;
+}
+
+img {
+  vertical-align: middle;
+}
 
 /* Slideshow container */
 .slideshow-container {
@@ -141,13 +146,20 @@ img {vertical-align: middle;}
 }
 
 @keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
 }
 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
-  .text {font-size: 11px}
+  .text {
+    font-size: 11px
+  }
 }
 
 .container {
@@ -159,5 +171,44 @@ img {vertical-align: middle;}
 }
 
 .font {
-  font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-child {
+  flex: 1;
+  border: 2px solid yellow;
+}
+
+.flex-child:first-child {
+  margin-right: 20px;
+}
+
+.map-responsive {
+
+  overflow: hidden;
+
+  padding-bottom: 56.25%;
+
+  position: relative;
+
+  height: 0;
+
+}
+
+.map-responsive iframe {
+
+  left: 0;
+
+  top: 0;
+
+  height: 100%;
+
+  width: 100%;
+
+  position: absolute;
+
 }
