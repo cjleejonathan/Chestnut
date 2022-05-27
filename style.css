@@ -161,12 +161,12 @@ img {
 }
 
 /* for each main section */
-.container {
+/* .container {
   display: flex;
   width: 100%;
   flex-wrap: wrap;
   justify-content: center;
-}
+} */
 
 /* header font */
 .header_font {
@@ -209,4 +209,21 @@ img {
   height: 100%;
   width: 100%;
   position: absolute;
+}
+
+.container {
+  max-width: 100%;
+  margin: auto;
+  padding: 5%; display:flex;
+}
+
+.menu {
+  font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";font-weight:lighter; padding:2%; 
+
+border: 2px solid #9392EC;
+}
+
+
+h3{
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"; 
 }
