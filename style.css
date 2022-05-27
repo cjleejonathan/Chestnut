@@ -1,3 +1,7 @@
+.html {
+  scroll-behavior: smooth;
+}
+
 /* The sidebar menu */
 .sidebar {
   height: 100%;
@@ -227,4 +231,8 @@ border: 2px solid #9392EC;
 
 h3{
 	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"; 
+}
+
+h2 {
+  font-family:segoe print; mv boli, gabriola, "architects-daughter", "bradley-hand", "marker felt", malgun gothic, "Gill Sans", "Gill Sans MT", "sans-serif";
 }
