@@ -183,8 +183,6 @@ img {
 /* for map */
 .flex-container {
   display: flex;
-  margin-right: 5%;
-  margin-left: 15%;
   
 }
 
@@ -237,4 +235,10 @@ h3{
 
 h2 {
   font-family:segoe print; mv boli, gabriola, "architects-daughter", "bradley-hand", "marker felt", malgun gothic, "Gill Sans", "Gill Sans MT", "sans-serif";
+}
+
+.cafephoto {
+  background: url(IMG_2465.png) 50% 50% no-repeat; 
+  width: 50%;
+  height: 50%;
 }
