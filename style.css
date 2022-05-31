@@ -211,7 +211,7 @@ img {
   left: 0;
   top: 0;
   height: 100%;
-  width: 100%;
+  width: 35vw;
   position: absolute;
 }
 
@@ -241,7 +241,7 @@ h2 {
   background: url(IMG_2465.png) no-repeat; 
   position:absolute;
   background-size:contain;
-  width: 40vw;
-  height: 40vh;
+  width: 35vw;
+  height: 35vh;
   bottom:0;
 }
