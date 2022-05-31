@@ -183,12 +183,14 @@ img {
 /* for map */
 .flex-container {
   display: flex;
+  
 }
 
 /* for map */
 .flex-child {
   flex: 1;
   position:relative;
+  line-height:1.8;
 }
 
 /* for map */
