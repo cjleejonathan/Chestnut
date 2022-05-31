@@ -203,16 +203,16 @@ img {
   overflow: hidden;
   padding-bottom: 56.25%;
   position: relative;
-  height: 700px;
-  width: 350px;
+  height: 50vh;
+  width: 15vw;
 }
 
 /* for map */
 .map-responsive iframe {
   left: 0;
   top: 0;
-  height: 550px;
-  width: 350px;
+  height: 50vh;
+  width: 15vw;
   position: absolute;
 }
 
@@ -243,7 +243,7 @@ h2 {
   /* position:absolute; */
   background-size:contain;
   margin-top: 6%;
-  width: 700px;
-  height: 400px;
+  width: 35vw;
+  height: 35vh;
   bottom:0;
 }
