@@ -11,9 +11,10 @@
 </head>
 <style>
     html {
-      scroll-behavior: smooth;
+        scroll-behavior: smooth;
     }
-    </style>
+</style>
+
 <body>
 
     <!-- sticky header-->
@@ -62,14 +63,16 @@
         <!--about us-->
         <div class="aboutus" style="padding: 5%; height: 100vh;" id="aboutus">
             <div class="container">
-               <center>
-                <h1 class="font">about us</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa qui officia deserunt mollit anim id est laborum.</p>
-               </center>
+                <center>
+                    <h1 class="font">about us</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                        ut
+                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                        culpa qui officia deserunt mollit anim id est laborum.</p>
+                </center>
             </div>
         </div>
 
@@ -103,70 +106,116 @@
                     <p>Grilled/Crispy Chicken Breast 8.5</p>
                     <p>Grilled Cheese 5</p>
                 </div>
-    
-                
             </div>
-        </div>
-        
-
-
-        <!--food gallery-->
-        <div class="foodgallery" style="padding: 5%; height: 100vh;" id="foodgallery">
-            <center>
-                <h1 class="font">food gallery</h1>
-
-                <div class="slideshow-container">
-
-                    <div class="mySlides fade">
-                        <img src="Slide3.JPG" width="80%" height="80%">
-                    </div>
-
-                    <div class="mySlides fade">
-                        <img src="Slide8.JPG" width="80%" height="80%">
-                    </div>
-
-                    <div class="mySlides fade">
-                        <img src="Slide12.JPG" width="80%" height="80%">
-                    </div>
-
-                    <div class="mySlides fade">
-                        <img src="Slide13.JPG" width="80%" height="80%">
-                    </div>
-
+            <!-- <div class="container">
+                <div class="menu-content">
+                    <h2>Famous Hot Oven Grinder</h2>
+                    <h3><br></h3>
+                    <p>Chestnut Trio 10</p>
+                    <p>Italian 10</p>
+                    <p>Hawaiian 10</p>
+                    <p>Turkey 10</p>
+                    <p>Teriyaki Chicken 10</p>
+                    <p>Veggie 10</p>
                 </div>
-            </center>
-
-            <br>
-            <div style="text-align:center">
-                <span class="dot"></span>
-                <span class="dot"></span>
-                <span class="dot"></span>
-                <span class="dot"></span>
+                <div class="menu-content">
+                    <h2>Salads</h2>
+                    <h3><br></h3>
+                    <p>Chestnut Chef Salad 9.5</p>
+                    <p>Mandarin Chicken Salad 9.5</p>
+                    <p>Chicken Caesar Salad 9.5</p>
+                </div>
             </div>
-
-            <script>
-                let slideIndex = 0;
-                showSlides();
-
-                function showSlides() {
-                    let i;
-                    let slides = document.getElementsByClassName("mySlides");
-                    let dots = document.getElementsByClassName("dot");
-                    for (i = 0; i < slides.length; i++) {
-                        slides[i].style.display = "none";
-                    }
-                    slideIndex++;
-                    if (slideIndex > slides.length) { slideIndex = 1 }
-                    for (i = 0; i < dots.length; i++) {
-                        dots[i].className = dots[i].className.replace(" active", "");
-                    }
-                    slides[slideIndex - 1].style.display = "block";
-                    dots[slideIndex - 1].className += " active";
-                    setTimeout(showSlides, 4000); // Change image every 4 seconds
-                }
-            </script>
+            <div class="container">
+                <div class="menu-content">
+                    <h2>Breakfast</h2>
+                    <h3>8 AM–11 AM</h3>
+                    <p>French Special 9.5</p>
+                    <p>Ultimate Wrap 7</p>
+                    <p>Breakfast Wrap 5</p>
+                    <p>French Toast 5</p>
+                </div>
+                <div class="menu-content">
+                    <h2>Sides</h2>
+                    <h3><br></h3>
+                    <p>Soup of the Day cup 3/bowl 4</p>
+                    <p>Egg Rolls 4</p>
+                    <p>Onion Rings 5</p>
+                    <p>French Fires small 3/large 4</p>
+                </div>
+            </div>
+            <div class="container">
+                <div class="menu-content">
+                    <h2>Fresh Wrap</h2>
+                    <h3>Choice of Spinach or Flour</h3>
+                    <p>Turkey Avocado 9.5</p>
+                    <p>BLTA 9.5</p>
+                    <p>Grilled/Crispy Chicken 9.5</p>
+                </div>
+            </div> -->
 
         </div>
+    </div>
+
+
+
+    <!--food gallery-->
+    <div class="foodgallery" style="padding: 5%; height: 100vh;" id="foodgallery">
+        <center>
+            <h1 class="font">food gallery</h1>
+
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                    <img src="Slide3.JPG" width="80%" height="80%">
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="Slide8.JPG" width="80%" height="80%">
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="Slide12.JPG" width="80%" height="80%">
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="Slide13.JPG" width="80%" height="80%">
+                </div>
+
+            </div>
+        </center>
+
+        <br>
+        <div style="text-align:center">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+
+        <script>
+            let slideIndex = 0;
+            showSlides();
+
+            function showSlides() {
+                let i;
+                let slides = document.getElementsByClassName("mySlides");
+                let dots = document.getElementsByClassName("dot");
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                slideIndex++;
+                if (slideIndex > slides.length) { slideIndex = 1 }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex - 1].style.display = "block";
+                dots[slideIndex - 1].className += " active";
+                setTimeout(showSlides, 4000); // Change image every 4 seconds
+            }
+        </script>
+
+    </div>
 
 
 
@@ -193,6 +242,7 @@
                 </div>
             </div>
             <div class="flex-child green">
+                Call: 425–251–5380<br>
                 Business Hours <br>
                 Mon–Fri: 7:00 AM–4:00 PM <br>
                 Sat–Sun: Closed
