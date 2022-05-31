@@ -204,7 +204,7 @@ img {
   padding-bottom: 56.25%;
   position: relative;
   height: 700px;
-  width: 700px;
+  width: 350px;
 }
 
 /* for map */
@@ -212,7 +212,7 @@ img {
   left: 0;
   top: 0;
   height: 550px;
-  width: 700px;
+  width: 350px;
   position: absolute;
 }
 
