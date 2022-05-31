@@ -241,6 +241,7 @@ h2 {
   background: url(IMG_2465.png) no-repeat; 
   position:absolute;
   background-size:contain;
+  margin-top:6%;
   width: 35vw;
   height: 35vh;
   bottom:0;
