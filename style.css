@@ -188,6 +188,7 @@ img {
 /* for map */
 .flex-child {
   flex: 1;
+  position:relative;
 }
 
 /* for map */
