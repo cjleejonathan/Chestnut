@@ -183,6 +183,8 @@ img {
 /* for map */
 .flex-container {
   display: flex;
+  margin-right: 5%;
+  margin-left: 15%;
   
 }
 
