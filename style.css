@@ -208,7 +208,7 @@ img {
   padding-bottom: 56.25%;
   position: relative;
   height: 100%;
-  width: 70%;
+  width: 100%;
   
 }
 
@@ -217,7 +217,7 @@ img {
   left: 0;
   top: 0;
   height: 100%;
-  width: 70%;
+  width: 100%;
   position: absolute;
 
   
@@ -248,9 +248,8 @@ h2 {
 .cafephoto {
   background: url(IMG_2465.png)no-repeat; 
   position:absolute;
-  background-size:contain;
-  margin-top: 2%;
-  height: 70%;
-  width: 70%;
+  background-size:cover;
+  height: 100%;
+  width: 100%;
   bottom: 0;
 }
