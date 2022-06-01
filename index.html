@@ -19,9 +19,10 @@
 
     <!-- sticky header-->
     <div class="header" id="myHeader">
-        <h2 class="header_font">Chesnut
-            Cafe</h2>
-
+        <h2 class="header_font">Chesnut Cafe </h2>
+        <img src="CClogo4.png" alt="" style="height: 4em;
+        width: auto;
+        display: inline-block;">
         <!--sidebar-->
 
         <div id="main">
@@ -64,50 +65,21 @@
             <center>
                 <h1 class="font" style="padding-top:2%; padding-bottom:2%;">Menu</h1>
             </center>
-            <div class="wrap">
+            <div class="content">
                 <main role="main">
-                <a href="1200X700.png" data-fancybox="gallery">
-                <img src="1200X700.png" alt="box"></a>		
-            </main>
+                    <a href="1200X700.png" data-fancybox="gallery">
+                        <img src="1200X700.png" alt="box"></a>
+                </main>
             </div> 
-        </body> <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-        <script
-        src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+            <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 
             <div class="container">
-                <img id="myImg" src="1200X700.png" style="width:100%">
 
-                <!-- The Modal -->
-                <div id="myModal" class="modal">
-                  <span class="close">&times;</span>
-                  <img class="modal-content" id="img01">
-                  <div id="caption"></div>
-                </div>
             </div>
 
         </div>
-        <script>
-            // Get the modal
-            var modal = document.getElementById("myModal");
-            
-            // Get the image and insert it inside the modal - use its "alt" text as a caption
-            var img = document.getElementById("myImg");
-            var modalImg = document.getElementById("img01");
-            var captionText = document.getElementById("caption");
-            img.onclick = function(){
-              modal.style.display = "block";
-              modalImg.src = this.src;
-              captionText.innerHTML = this.alt;
-            }
-            
-            // Get the <span> element that closes the modal
-            var span = document.getElementsByClassName("close")[0];
-            
-            // When the user clicks on <span> (x), close the modal
-            span.onclick = function() { 
-              modal.style.display = "none";
-            }
-        </script>
+
     </div>
 
 
@@ -198,7 +170,7 @@
                 <div class="cafephoto">
                 </div>
             </div>
-            
+
         </div>
         <div class="contactfont" style="margin-top:2%;">
             Call: 425–251–5380<br>
