@@ -253,3 +253,8 @@ h2 {
   width: 100%;
   bottom: 0;
 }
+
+.contactfont {
+  font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+  line-height:2;
+}
