@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 
-
 <head>
     <title>Chestnut Cafe</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -65,76 +64,39 @@
                 <h1 class="font" style="padding-top:2%; padding-bottom:2%;">Menu</h1>
             </center>
             <div class="container">
+                <img id="myImg" src="1200X700.png" style="width:100%">
 
-                <div class="menu-content">
-                    <h2>Fresh Sandwiches</h2>
-                    <h3>Choice of White, Wheat, Sourdough</h3>
-                    <p>Pastrami 9.5</p>
-                    <p>Turkey Club 9.5</p>
-                    <p>Turkey Breast 8.5</p>
-                    <p>BLT 8.5</p>
-                    <p>Tuna Salad 8.5</p>
-                    <p>Egg Salad 8.5</p>
-                </div>
-                <div class="menu-content">
-                    <h2>Hot Sandwiches</h2>
-                    <h3><br></h3>
-                    <p>Chestnut Philly Cheesesteak 10</p>
-                    <p>French Dip 10</p>
-                    <p>Pesto Grilled Chicken 10</p>
-                    <p>Grilled Ham &amp; Cheese 8.5</p>
-                    <p>Grilled/Crispy Chicken Breast 8.5</p>
-                    <p>Grilled Cheese 5</p>
+                <!-- The Modal -->
+                <div id="myModal" class="modal">
+                  <span class="close">&times;</span>
+                  <img class="modal-content" id="img01">
+                  <div id="caption"></div>
                 </div>
             </div>
-            <!-- <div class="container">
-                <div class="menu-content">
-                    <h2>Famous Hot Oven Grinder</h2>
-                    <h3><br></h3>
-                    <p>Chestnut Trio 10</p>
-                    <p>Italian 10</p>
-                    <p>Hawaiian 10</p>
-                    <p>Turkey 10</p>
-                    <p>Teriyaki Chicken 10</p>
-                    <p>Veggie 10</p>
-                </div>
-                <div class="menu-content">
-                    <h2>Salads</h2>
-                    <h3><br></h3>
-                    <p>Chestnut Chef Salad 9.5</p>
-                    <p>Mandarin Chicken Salad 9.5</p>
-                    <p>Chicken Caesar Salad 9.5</p>
-                </div>
-            </div>
-            <div class="container">
-                <div class="menu-content">
-                    <h2>Breakfast</h2>
-                    <h3>8 AM–11 AM</h3>
-                    <p>French Special 9.5</p>
-                    <p>Ultimate Wrap 7</p>
-                    <p>Breakfast Wrap 5</p>
-                    <p>French Toast 5</p>
-                </div>
-                <div class="menu-content">
-                    <h2>Sides</h2>
-                    <h3><br></h3>
-                    <p>Soup of the Day cup 3/bowl 4</p>
-                    <p>Egg Rolls 4</p>
-                    <p>Onion Rings 5</p>
-                    <p>French Fires small 3/large 4</p>
-                </div>
-            </div>
-            <div class="container">
-                <div class="menu-content">
-                    <h2>Fresh Wrap</h2>
-                    <h3>Choice of Spinach or Flour</h3>
-                    <p>Turkey Avocado 9.5</p>
-                    <p>BLTA 9.5</p>
-                    <p>Grilled/Crispy Chicken 9.5</p>
-                </div>
-            </div> -->
 
         </div>
+        <script>
+            // Get the modal
+            var modal = document.getElementById("myModal");
+            
+            // Get the image and insert it inside the modal - use its "alt" text as a caption
+            var img = document.getElementById("myImg");
+            var modalImg = document.getElementById("img01");
+            var captionText = document.getElementById("caption");
+            img.onclick = function(){
+              modal.style.display = "block";
+              modalImg.src = this.src;
+              captionText.innerHTML = this.alt;
+            }
+            
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close")[0];
+            
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function() { 
+              modal.style.display = "none";
+            }
+        </script>
     </div>
 
 
