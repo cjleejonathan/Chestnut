@@ -1,4 +1,6 @@
 
+
+
 /* The sidebar menu */
 
 .sidebar {
@@ -86,7 +88,7 @@
 
 .header-text {
   display: inline-block; 
-  font-size:2vw; 
+  font-size:2.5vw; 
   white-space: nowrap;
 }
 
@@ -269,10 +271,6 @@ h2 {
   .header-text {
     font-size: 8vw;
   }
-
-  .homepage {
-    margin-top: 6vh;
-  };
 
 
   .main .menu .content{
