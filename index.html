@@ -25,23 +25,17 @@
 
     <!-- sticky header-->
     <div class="header" id="myHeader">
-        <div class="header-logo" >
-            <a href="#homepage">
-                <img src="img/Logo.png" style="height: 6vh;
-                width: auto;
-                background: transparent;
-                -webkit-filter: drop-shadow(5px 5px 5px #222); filter: drop-shadow(5px 5px 5px #222);">
-            </a>
-        </div>
-        <div class="header-text" style="margin-left: 1%; font-size: 4vh; ">
-            <a href="#homepage" class="header_font" style="text-decoration: none;">ChestnutCafe </a>
-        </div>
-        
-        
+        <a href="#homepage">
+            <img class="header-logo" src="img/Logo.png">
+        </a>
+        <a href="#homepage" class="header-text">Chestnut Cafe </a>
+
         <!--sidebar-->
 
-        <div class="sidebar-main" id="main" style="width:100vw;">
-            <button class="openbtn font" onclick="openNav()">&#9776;<span class="sidebar-text">Open Sidebar</span></button>
+        <div class="sidebar-button" id="main" style="width:100vw;">
+            <button class="openbtn font" onclick="openNav()">&#9776;
+                <span class="sidebar-text">Open Sidebar</span>
+            </button>
         </div>
 
         <div id="mySidebar" class="sidebar font">
@@ -56,13 +50,15 @@
     </div>
     <script>
         function openNav() {
-            document.getElementById("mySidebar").style.width = "216px";
-            document.getElementById("main").style.marginRight = "216px";
+            const list = document.getElementById("mySidebar").classList;
+            list.add("sidebaropen");
+
+
         }
 
         function closeNav() {
-            document.getElementById("mySidebar").style.width = "0";
-            document.getElementById("main").style.marginLeft = "0";
+            const list = document.getElementById("mySidebar").classList;
+            list.remove("sidebaropen");
         }
     </script>
     </div>
@@ -76,18 +72,18 @@
     <div class="main" style="margin-top:auto; padding: 5%; margin: 0 auto; width: 100vw;" id="menu">
 
         <!--menu-->
-        <div class="menu" style="height: 80vh;" >
+        <div class="menu" style="height: 80vh;">
             <center>
-                <h1 class="font" style="" >Menu</h1>
+                <h1 class="font" style="">Menu</h1>
             </center>
-            <div class="content" style="margin-top: 2%; margin-bottom: 2%;">
+            <div class="menu-content" style="margin-top: 2%; margin-bottom: 2%;">
                 <main role="main">
                     <a href="img/Menu-Large.pdf" data-fancybox="gallery" style="">
                         <img src="img/Menu-Thumb.png" alt="box" style="display: block;
-                        width: 30vw;
+                        width: 80%;
                         height: auto;
                         margin-left: auto;
-                        margin-right: auto;"></a>
+  margin-right: auto;"></a>
                 </main>
             </div> 
             <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>

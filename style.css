@@ -1,5 +1,6 @@
-
-
+.fullwidth {
+  width: 100vw;
+}
 
 /* The sidebar menu */
 
@@ -18,7 +19,7 @@
   /* Black*/
   overflow-x: hidden;
   /* Disable horizontal scroll */
-  padding-top: 60px;
+
   /* Place content 60px from the top */
   transition: 0.3s;
   /* 0.5 second transition effect to slide in the sidebar */
@@ -41,8 +42,7 @@
 
 /* Position and style the close button (top right corner) */
 .sidebar .closebtn {
-  position: absolute;
-  top: 2px;
+  position: relative;
   left: 1px;
   font-size: 36px;
   margin-right: 50px;
@@ -51,8 +51,10 @@
 /* The button used to open the sidebar */
 .openbtn {
   position: absolute;
-  right: 10px;
-  font-size: 20px;
+  right: 1.5%;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 2vh;
   cursor: pointer;
   background-color: #C4B07C;
   color: #5f3916;
@@ -64,12 +66,12 @@
   background-color: #ddaa44;
 }
 
-/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
-#main {
-  transition: margin-right .5s;
-  /* If you want a transition effect */
-  padding: 5px;
+.sidebaropen {
+  width: 11vw;
+  padding-left: 2vh;
 }
+
+
 
 
 
@@ -80,16 +82,31 @@
   z-index: 9999;
   top: 0;
   width: 100%;
+  height: auto;
   padding: 10px 16px;
   background-color: #5f3916;
   color: #f1f1f1;
 }
 
-/* .header-text {
-  display: inline-block; 
-  font-size:2.5vw; 
+.header-logo {
+  margin: 0;
+  height: 6vh;
+  width: auto;
+  background: transparent;
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+}
+
+.header-text {
+  margin: 0;
+  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 1%;
+  font-size: 4vh;
+  display: inline-block;
   white-space: nowrap;
-} */
+}
 
 
 
@@ -164,12 +181,6 @@ img {
   justify-content: center;
 } */
 
-/* header font */
-.header_font {
-  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
-  font-weight: bold;
-}
-
 /* other font */
 .font {
   font-family: segoe print, mv boli, gabriola, "architects-daughter", "bradley-hand", "marker felt", malgun gothic, "Gill Sans", "Gill Sans MT", "sans-serif";
@@ -178,18 +189,18 @@ img {
 /* for map */
 .flex-container {
   display: flex;
-  
+
 }
 
 /* for map */
 .flex-child {
   flex: 1;
-  position:relative;
-  line-height:1.8;
+  position: relative;
+  line-height: 1.8;
   width: 35vw;
   height: 60vh;
   background-color: #C4B07C;
-  
+
 }
 
 /* for map */
@@ -204,7 +215,7 @@ img {
   position: relative;
   height: 100%;
   width: 100%;
-  
+
 }
 
 /* for map */
@@ -215,46 +226,59 @@ img {
   width: 100%;
   position: absolute;
 
-  
+
 }
 
 .container {
   max-width: 100%;
   margin: auto;
-  padding: 5%; display:flex;
-  
+  padding: 5%;
+  display: flex;
+
 }
 
 .menu-content {
-  font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";font-weight:lighter; padding:2%; 
+  display: block;
 
-border: 2px solid #9392EC;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30vw;
 }
 
 
-h3{
-	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"; 
+h3 {
+  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 }
 
 h2 {
-  font-family:segoe print; mv boli, gabriola, "architects-daughter", "bradley-hand", "marker felt", malgun gothic, "Gill Sans", "Gill Sans MT", "sans-serif";
+  font-family: segoe print;
+  mv boli,
+  gabriola,
+  "architects-daughter",
+  "bradley-hand",
+  "marker felt",
+  malgun gothic,
+  "Gill Sans",
+  "Gill Sans MT",
+  "sans-serif";
 }
 
 .cafephoto {
-  background: url(img/IMG_2465.png)no-repeat; 
-  position:absolute;
-  background-size:cover;
+  background: url(img/IMG_2465.png)no-repeat;
+  position: absolute;
+  background-size: cover;
   height: 100%;
   width: 100%;
   bottom: 0;
 }
 
 .contactfont {
-  font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"; 
-  font-weight: bold; 
+  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+  font-weight: bold;
   font-size: 1.5vw;
-  line-height:2;
-  
+  line-height: 2;
+
 }
 
 /* On smaller screens, where height is less than 480px, change the style of the sidenav (less padding and a smaller font size) */
@@ -271,16 +295,18 @@ h2 {
     display: none;
   }
 
-  /* .header-text {
-    font-size: 8vw;
+  .openbtn {
+    right: 4%;
   }
 
-
-  .main .menu .content{
-    height: 80vh;
+  .sidebaropen {
+    width: 25vw;
+    padding-left: 0.5vh;
   }
-  .main .menu .content .main{
-    height: 80vh;
-  } */
+
+  .menu-content {
+    width: 90vw;
+  }
+
 
 }
