@@ -1,5 +1,6 @@
 
 /* The sidebar menu */
+
 .sidebar {
   height: 100%;
   /* 100% Full-height */
@@ -68,23 +69,7 @@
   padding: 5px;
 }
 
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
-  .sidebar {
-    padding-top: 15px;
-  }
 
-  .sidebar a {
-    font-size: 18px;
-  }
-}
-
-/* mobile version */
-/* @media screen and (max-width: 500px) {
-  .main {
-    width: 100%;
-  }
-} */
 
 /* Style the header */
 .header {
@@ -97,6 +82,14 @@
   background-color: #5f3916;
   color: #f1f1f1;
 }
+
+.header-text {
+  display: inline-block; 
+  font-size:2vw; 
+  white-space: nowrap;
+}
+
+
 
 .mySlides {
   display: none;
@@ -262,3 +255,22 @@ h2 {
   
 }
 
+/* On smaller screens, where height is less than 480px, change the style of the sidenav (less padding and a smaller font size) */
+@media only screen and (max-width: 600px) {
+  .sidebar {
+    padding-top: 15px;
+  }
+
+  .sidebar a {
+    font-size: 18px;
+  }
+
+  .header-text {
+    font-size: 8vw;
+  }
+
+  .homepage img{
+    height: 50vh;
+  }
+
+}

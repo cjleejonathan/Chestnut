@@ -12,6 +12,8 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
     <link rel="manifest" href="/img/site.webmanifest">
+    <meta charset="utf-8">
+
 </head>
 <style>
     html {
@@ -22,24 +24,31 @@
 <body>
 
     <!-- sticky header-->
-    <div class="header" id="myHeader">
-        <a href="#homepage" style=" display: inline-block;">
-            <img src="img/Logo.png" alt="" style="height: 4em;
-            width: auto;
-            display: inline-block;
-            background: transparent;
-            -webkit-filter: drop-shadow(5px 5px 5px #222); filter: drop-shadow(5px 5px 5px #222);">
-            
-        </a>
-        <a href="#homepage" style="margin-left: 1%;">
-            <h2 class="header_font" style="display: inline-block;">  Chestnut Cafe </h2>
-        </a>
+    <div class="header" id="myHeader" style="width:100vw">
+        <div class="header-logo">
+            <a href="#homepage" style="display: inline-block;">
+                <img src="img/Logo.png" style="height: 6vh;
+                width: auto;
+                display: inline-block;
+                background: transparent;
+                -webkit-filter: drop-shadow(5px 5px 5px #222); filter: drop-shadow(5px 5px 5px #222);">
+                
+            </a>
+        </div>
+        <div class="header-text">
+            <a href="#homepage" style="margin-left: 5%;">
+                <a class="header_font">Chestnut Cafe </a>
+            </a>
+        </div>
         
-
         <!--sidebar-->
 
-        <div id="main">
-            <button class="openbtn font" onclick="openNav()">&#9776; Open Sidebar</button>
+        <div class="sidebar-main" id="main" style="width:100vw;">
+            <button class="openbtn font" onclick="openNav()">&#9776; 
+           
+                    Open Sidebar
+              
+            </button>
         </div>
 
         <div id="mySidebar" class="sidebar font">
@@ -66,12 +75,12 @@
     </div>
 
     <!--homepage-->
-    <div class="homepage" >
-        <img src="img/Slide6.JPG" alt="" style="width: 100vw;height: 100vh;" id="homepage">
+    <div class="homepage" style="width: 100vw; height: 100vh">
+        <img src="img/Slide6.JPG" alt="" style="width: 100vw;height: auto;" id="homepage">
     </div>
 
     <!--main content-->
-    <div class="main" style="padding: 5%; margin: 0 auto;" id="menu">
+    <div class="main" style="padding: 5%; margin: 0 auto; width: 100vw;" id="menu">
 
         <!--menu-->
         <div class="menu" style="height: 80vh;" >
@@ -101,7 +110,7 @@
 
 
     <!--food gallery-->
-    <div class="foodgallery" style="padding: 5%; height: 100vh;" id="foodgallery">
+    <div class="foodgallery" style="padding: 5%; height: 100vh; width:100vw;" id="foodgallery">
         <center>
             <h1 class="font" style="padding-top:2%; padding-bottom:2%;">Food Gallery</h1>
 
@@ -166,7 +175,7 @@
 
     </div>
     <!--contact us-->
-    <div class="contactus" style="padding: 5%; height: 100vh;" id="contactus">
+    <div class="contactus" style="padding: 5%; height: 100vh; width:100vw;" id="contactus">
         <center>
             <h1 class="font" style="padding-top:2%; padding-bottom:2%;">Contact Us</h1>
         </center>
