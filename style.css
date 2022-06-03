@@ -273,4 +273,9 @@ h2 {
     height: 50vh;
   }
 
+  .main menu content img{
+    width: 80vw;
+    height: 80vh;
+  }
+
 }
