@@ -22,7 +22,8 @@
 
   /* Place content 60px from the top */
   transition: 0.3s;
-  /* 0.5 second transition effect to slide in the sidebar */
+  /* 0.3 second transition effect to slide in the sidebar */
+  
 }
 
 /* The sidebar links */
@@ -52,14 +53,15 @@
 .openbtn {
   position: absolute;
   right: 1.5%;
-  margin-top: auto;
-  margin-bottom: auto;
+  top: 15%;
+  bottom: 15%;
   font-size: 2vh;
   cursor: pointer;
   background-color: #C4B07C;
   color: #5f3916;
   padding: 10px 15px;
   border: none;
+  /* border-radius: 80px; */
 }
 
 .openbtn:hover {
@@ -78,7 +80,7 @@
 /* Style the header */
 .header {
   display: flex;
-  position: fixed;
+  position: sticky;
   z-index: 9999;
   top: 0;
   width: 100%;
@@ -86,6 +88,7 @@
   padding: 10px 16px;
   background-color: #5f3916;
   color: #f1f1f1;
+  
 }
 
 .header-logo {
@@ -298,6 +301,7 @@ h2 {
   .openbtn {
     right: 4%;
   }
+
 
   .sidebaropen {
     width: 25vw;
