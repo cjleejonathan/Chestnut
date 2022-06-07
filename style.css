@@ -158,6 +158,7 @@
   height: 100%;
   width: 100%;
   position: absolute;
+  
 
 
 }
@@ -248,5 +249,12 @@ h2 {
 
   .flex-child:first-child {
     margin-right: 0;
+  }
+
+  .header-text {
+    font-size: 4vh !important;
+  }
+  .header-logo {
+    height: 5.5vh;
   }
 }
