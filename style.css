@@ -57,11 +57,11 @@
   right: 1.5%;
   top: 15%;
   bottom: 15%;
-  font-size: 2vh;
+  font-size: 2.5vh;
   cursor: pointer;
   background-color: #C4B07C;
   color: #5f3916;
-  padding: 10px 15px;
+  padding: 5px 10px;
   border: none;
   /* border-radius: 80px; */
 }
@@ -96,7 +96,7 @@
 
 .header-logo {
   margin: 0;
-  height: 6vh;
+  height: 7vh;
   width: auto;
   background: transparent;
   -webkit-filter: drop-shadow(5px 5px 5px #222);
@@ -109,7 +109,7 @@
   font-weight: bold;
   text-decoration: none;
   margin-left: 1%;
-  font-size: 4vh;
+  font-size: 5vh;
   display: inline-block;
   white-space: nowrap;
 }
