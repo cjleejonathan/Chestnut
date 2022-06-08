@@ -291,6 +291,14 @@ h2 {
   .header-logo {
     height: 5vh;
   }
+
+  .flex-child.green {
+    display: none;
+  }
+
+  .flex-child:first-child {
+    margin-right: 0;
+  }
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1366px) and (min-height: 768px) and (max-height: 1024px) and (orientation: landscape) {
