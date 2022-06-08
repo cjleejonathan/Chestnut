@@ -285,14 +285,6 @@ h2 {
     font-size: 4vw !important;
   }
 
-  /* .flex-child.green {
-    display: none;
-  }
-
-  .flex-child:first-child {
-    margin-right: 0;
-  } */
-
   .header-text {
     font-size: 3.5vh !important;
   }
@@ -310,4 +302,14 @@ h2 {
     font-size: 4.66vh !important;
   }
 
+}
+
+@media only screen and (min-width: 2048px) and (max-width: 2732px) {
+  .contactfont {
+    font-size: 3vh !important;
+  }
+
+  .sidebar a {
+    font-size: 4.66vh !important;
+  }
 }
