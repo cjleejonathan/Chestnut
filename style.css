@@ -294,9 +294,9 @@ h2 {
   }
 
   .header-text {
-    font-size: 4vh !important;
+    font-size: 3.5vh !important;
   }
   .header-logo {
-    height: 5.5vh;
+    height: 5vh;
   }
 }
