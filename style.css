@@ -119,7 +119,7 @@
 
 /* for map */
 .flex-container {
-  display: inline-flex;
+  display: flex;
 
 }
 
