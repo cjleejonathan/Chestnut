@@ -305,4 +305,9 @@ h2 {
   .contactfont {
     font-size: 3vh !important;
   }
+
+  .sidebar a {
+    font-size: 3.66vh !important;
+  }
+
 }
