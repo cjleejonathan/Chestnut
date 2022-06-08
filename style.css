@@ -298,7 +298,7 @@ h2 {
   }
 
   .contactfont {
-    font-size: 6vw !important;
+    font-size: 4vw !important;
   }
 
   .flex-child.green {
@@ -310,14 +310,14 @@ h2 {
   }
 
   .header-text {
-    font-size: 4vh !important;
+    font-size: 7vh !important;
   }
 
   .header-logo {
-    height: 5.5vh;
+    height: 10vh;
   }
   .contactfont {
-    margin-top: 4% !important;
+    margin-top: 25% !important;
   }
 
   .contactfont .row {
