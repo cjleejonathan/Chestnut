@@ -155,7 +155,7 @@
   top: 0;
   height: 100%;
   width: 100%;
-  position: absolute;
+  position: relative;
 
 
 
@@ -206,7 +206,7 @@ h2 {
 
 
 /* mobile portrait */
-@media only screen and (max-width: 767px) and (orientation: portrait){
+@media only screen and (max-width: 767px) and (orientation: portrait) {
   .sidebar {
     padding-top: 15px;
   }
@@ -256,6 +256,7 @@ h2 {
   .header-logo {
     height: 5.5vh;
   }
+
   .contactfont {
     margin-top: 4% !important;
   }
@@ -266,7 +267,7 @@ h2 {
 }
 
 /* mobile landscape */
-@media only screen and (max-width: 767px) and (orientation: landscape){
+@media only screen and (max-width: 767px) and (orientation: landscape) {
   .sidebar {
     padding-top: 15px;
   }
@@ -316,6 +317,7 @@ h2 {
   .header-logo {
     height: 10vh;
   }
+
   .contactfont {
     margin-top: 25% !important;
   }
@@ -367,6 +369,7 @@ h2 {
   .flex-child:first-child {
     margin-right: 0;
   }
+
   .contactfont {
     margin-top: 4% !important;
   }
