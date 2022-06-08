@@ -208,7 +208,7 @@ h2 {
 
 
 /* On smaller screens, where height is less than 480px, change the style of the sidenav (less padding and a smaller font size) */
-@media only screen and (max-width: 726px) {
+@media only screen and (max-width: 767px) {
   .sidebar {
     padding-top: 15px;
   }
@@ -232,7 +232,7 @@ h2 {
   }
 
   .menu-content {
-    width: 90vw;
+    width: 90vw !important;
   }
 
   .gallery-container {
@@ -241,6 +241,48 @@ h2 {
 
   .contactfont {
     font-size: 6vw !important;
+  }
+
+  .flex-child.green {
+    display: none;
+  }
+
+  .flex-child:first-child {
+    margin-right: 0;
+  }
+
+  .header-text {
+    font-size: 4vh !important;
+  }
+  .header-logo {
+    height: 5.5vh;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .sidebar {
+    padding-top: 15px;
+  }
+
+  .sidebar a {
+    font-size: 3vh;
+  }
+
+  .sidebaropen {
+    width: 25vw;
+    padding-left: 0.5vh;
+  }
+
+  .menu-content {
+    width: 90vw !important;
+  }
+
+  .gallery-container {
+    width: 100% !important;
+  }
+
+  .contactfont {
+    font-size: 4vw !important;
   }
 
   .flex-child.green {
