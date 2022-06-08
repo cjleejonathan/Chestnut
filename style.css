@@ -257,7 +257,7 @@ h2 {
     height: 5.5vh;
   }
   .contactfont {
-    margin-top: 4%;
+    margin-top: 4% !important;
   }
 }
 
@@ -303,7 +303,7 @@ h2 {
     margin-right: 0;
   }
   .contactfont {
-    margin-top: 4%;
+    margin-top: 4% !important;
   }
 }
 
@@ -321,7 +321,7 @@ h2 {
   }
 
   .contactfont {
-    margin-top: 4%;
+    margin-top: 4% !important;
   }
 }
 
