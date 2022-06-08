@@ -324,6 +324,7 @@ h2 {
 
   .contactfont .row {
     display: block !important;
+    background-color: #222;
   }
 }
 
