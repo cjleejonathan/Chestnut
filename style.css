@@ -306,9 +306,6 @@ h2 {
     margin-top: 4% !important;
   }
 
-  .foodgallery {
-    background-color: #222;
-  }
 } */
 
 @media only screen and (min-width: 1024px) and (max-width: 1366px) and (min-height: 768px) and (max-height: 1024px) and (orientation: landscape) {
