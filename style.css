@@ -325,6 +325,10 @@ h2 {
   .contactfont .row {
     display: block !important;
   }
+
+  .contactfont .btn {
+    font-size: 4.5vh !important;
+  }
 }
 
 /* tablet portrait */
