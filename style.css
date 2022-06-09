@@ -282,7 +282,9 @@ h2 {
 
   .openbtn {
     right: 4%;
+    font-size: 6vh;
   }
+  
 
 
   .sidebaropen {
