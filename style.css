@@ -388,7 +388,7 @@ h2 {
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
 
   
-
+  
   .contactfont {
     font-size: 3vh !important;
   }
@@ -400,6 +400,7 @@ h2 {
   .sidebaropen {
     width: 20vw !important;
     padding-left: 0.5vh !important;
+    background-color: #222 !important;
   }
 
   .contactfont {
