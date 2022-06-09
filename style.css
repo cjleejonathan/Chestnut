@@ -267,7 +267,7 @@ h2 {
 }
 
 /* mobile landscape */
-@media only screen and (max-width: 767px) and (orientation: landscape) {
+@media only screen and (max-width: 1023px) and (orientation: landscape) {
   .sidebar {
     padding-top: 15px;
   }
