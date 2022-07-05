@@ -204,6 +204,14 @@ h2 {
 
 }
 
+.menu-text {
+  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+  font-weight: bold;
+  font-size: 1.5vw;
+  line-height: 2;
+  color: #5f3916 !important;;
+}
+
 
 /* mobile portrait */
 @media only screen and (max-width: 767px) and (orientation: portrait) {
