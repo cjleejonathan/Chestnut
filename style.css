@@ -271,6 +271,14 @@ h2 {
   .contactfont .row {
     display: block !important;
   }
+
+  .header-pc {
+    display: none;
+  }
+
+  .header-mobile {
+    display: block !important;
+  }
 }
 
 /* mobile landscape */
@@ -292,8 +300,6 @@ h2 {
     font-size: 6vh;
   }
   
-
-
   .sidebaropen {
     width: 25vw;
     padding-left: 0.5vh;
@@ -337,6 +343,14 @@ h2 {
 
   .contactfont .btn {
     font-size: 4.5vh !important;
+  }
+
+  .header-pc {
+    display: none;
+  }
+
+  .header-mobile {
+    display: block !important;
   }
 }
 
@@ -391,6 +405,14 @@ h2 {
     display: block !important;
   }
 
+  .header-pc {
+    display: none;
+  }
+
+  .header-mobile {
+    display: block !important;
+  }
+
 }
 
 /* tablet landscape */
@@ -414,6 +436,14 @@ h2 {
   .contactfont {
     margin-top: 4% !important;
     font-size: 2.4vh !important;
+  }
+
+  .header-pc {
+    display: none;
+  }
+
+  .header-mobile {
+    display: block !important;
   }
 }
 
