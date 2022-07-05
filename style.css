@@ -41,14 +41,15 @@
   color: #f1f1f1;
 }
 
-.header-pc {
+.header-pc{
   margin: 0;
   font-weight: bold;
   margin-left: 1%;
   font-size: 4vh;
-
+  display: inline-block;
+  white-space: nowrap;
   text-decoration : none; 
-  color:#C4B07C;
+  color:#C4B07C !important;
 }
 
 .header-pc a:hover {
