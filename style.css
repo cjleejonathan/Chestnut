@@ -46,7 +46,7 @@
   font-weight: bold;
   margin-left: 1%;
   font-size: 3.6vh;
-  padding-left:50%;
+  
   display: inline-block;
   white-space: nowrap;
   
@@ -300,6 +300,10 @@ h2 {
   .header-mobile {
     display: block !important;
   }
+
+  .menu-text {
+    font-size: 5vh;
+  }
 }
 
 /* mobile landscape */
@@ -373,6 +377,10 @@ h2 {
   .header-mobile {
     display: block !important;
   }
+
+  .menu-text {
+    font-size: 5vh;
+  }
 }
 
 /* tablet portrait */
@@ -434,6 +442,10 @@ h2 {
     display: block !important;
   }
 
+  .menu-text {
+    font-size: 5vh;
+  }
+
 }
 
 /* tablet landscape */
@@ -465,6 +477,10 @@ h2 {
 
   .header-mobile {
     display: block !important;
+  }
+
+  .menu-text {
+    font-size: 5vh;
   }
 }
 
