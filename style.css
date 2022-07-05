@@ -48,8 +48,12 @@
   font-size: 4vh;
   display: inline-block;
   white-space: nowrap;
+  
+}
+
+.header-pc a{
   text-decoration : none; 
-  color:#C4B07C !important;
+  color:#C4B07C;
 }
 
 .header-pc a:hover {
